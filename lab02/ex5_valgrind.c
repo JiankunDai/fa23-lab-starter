@@ -11,6 +11,7 @@ char *copy_str(char *s) {
 int main() {
     char * copy_of_str = copy_str("hello world!");
     printf("%s\n", copy_of_str);
+    // free(copy_of_str);
 
     return 0;
 }
